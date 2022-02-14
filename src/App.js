@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route,HashRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SignUp from './Components/SignUp/SignUp';
 import NavBar from './Components/NavBar/NavBar';
@@ -14,14 +14,14 @@ class App extends Component {
    }
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <NavBar/>
         <Route exact path="/" component={Home} />
         <Route path="/sign-up" render={props =><SignUp students={this.students} {...props}/>} />
         <Route path="/sign-in" component={SignIn} />
         <Route path="/free-videos" component={FreeVideos} />
         <Route path="/explanation-lectures" component={ExplanationLectures} />
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
