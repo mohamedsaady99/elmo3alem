@@ -1,0 +1,40 @@
+.free-videos {
+  background-color: #e3f1f5;
+  text-align: center;
+}
+.free-videos h3 {
+  padding-top: 50px;
+  margin-bottom: 15px;
+}
+.free-videos hr {
+  margin: 20px auto;
+  width: 90px;
+  height: 4px;
+  background-color: #198baf;
+  display: table;
+  border-radius: 10px;
+}
+
+.free-videos .card-bg {
+  border: none;
+  background-color: #e3f1f5 !important;
+}
+.btn-link {
+  background-color: #198baf;
+  color: white;
+  width: 200px;
+  margin: 20px auto;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+video[poster] {
+  object-fit: cover;
+}
+
+@media (max-width: 479px) {
+}
+@media (min-width: 480px) and (max-width: 769px) {
+}

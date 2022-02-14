@@ -1,0 +1,145 @@
+nav {
+  padding-bottom: 100px;
+}
+.bg-light {
+  background-color: #fff !important;
+}
+.navbar-nav {
+  padding: 10px 0px;
+}
+.navbar-light .navbar-brand {
+  color: #0f3a47 !important;
+  margin-left: 30%;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.navbar-light .navbar-brand img {
+  height: 60px;
+  margin-right: 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #198baf !important;
+  padding: 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #0f3a47 !important;
+  -webkit-transition: 0.96s ease-out;
+  -moz-transition: 0.96s ease-out;
+  -ms-transition: 0.96s ease-out;
+  -o-transition: 0.96s ease-out;
+  transition: 0.96s ease-out;
+}
+#signIn {
+  background-color: #e3f1f5;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#signIn:hover {
+  background-color: #198baf;
+  color: white !important;
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition: 0.6s ease-out;
+  -ms-transition: 0.6s ease-out;
+  -o-transition: 0.6s ease-out;
+  transition: 0.6s ease-out;
+}
+#signUp {
+  margin-right: 10px;
+  background-color: #198baf;
+  color: #fff !important;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#signUp:hover {
+  background-color: #36768a;
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition: 0.6s ease-out;
+  -ms-transition: 0.6s ease-out;
+  -o-transition: 0.6s ease-out;
+  transition: 0.6s ease-out;
+}
+@media (max-width: 479px) {
+  .navbar-light .navbar-nav .nav-link {
+    text-align: right;
+  }
+  .first-nav {
+    order: 1;
+  }
+  .second-nav {
+    order: 2;
+  }
+  .third-nav {
+    order: 3;
+  }
+  #signIn {
+    order: 4;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #signUp {
+    order: 5;
+    text-align: center;
+  }
+  .bg-light {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 480px) and (max-width: 769px) {
+  .navbar-light .navbar-nav .nav-link {
+    text-align: right;
+  }
+  .first-nav {
+    order: 1;
+  }
+  .second-nav {
+    order: 2;
+  }
+  .third-nav {
+    order: 3;
+  }
+  #signIn {
+    order: 4;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #signUp {
+    order: 5;
+    text-align: center;
+  }
+  .bg-light {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 770px) and (max-width: 991px) {
+  .navbar-light .navbar-nav .nav-link {
+    text-align: right;
+  }
+  .first-nav {
+    order: 1;
+  }
+  .second-nav {
+    order: 2;
+  }
+  .third-nav {
+    order: 3;
+  }
+  #signIn {
+    order: 4;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #signUp {
+    order: 5;
+    text-align: center;
+  }
+}

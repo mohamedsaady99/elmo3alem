@@ -1,0 +1,42 @@
+.about {
+  width: 86%;
+}
+.about h3 {
+  text-align: center;
+  padding: 40px 0 15px 0;
+  font-weight: bold;
+}
+hr {
+  margin: 0 auto;
+  width: 90px;
+  height: 4px;
+  background-color: #198baf;
+  display: table;
+  border-radius: 10px;
+}
+.about p {
+  font-size: 23px;
+  padding: 170px 0px 0px 40px;
+  direction: rtl;
+  text-align: right;
+}
+@media (max-width: 479px) {
+  .about p {
+    padding: 25px 10px 0px 10px;
+    font-size: 15px;
+  }
+  .first {
+    order: 1;
+  }
+}
+@media (min-width: 480px) and (max-width: 769px) {
+  .about p {
+    padding: 148px 0px 0px 125px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 770px) and (max-width: 991px) {
+  .about p {
+    padding: 148px 0px 0px 125px;
+  }
+}
