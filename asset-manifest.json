@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/elmo3alem/static/css/main.8035ce06.chunk.css",
-    "main.js": "/elmo3alem/static/js/main.80b89475.chunk.js",
-    "main.js.map": "/elmo3alem/static/js/main.80b89475.chunk.js.map",
+    "main.js": "/elmo3alem/static/js/main.69fa65e6.chunk.js",
+    "main.js.map": "/elmo3alem/static/js/main.69fa65e6.chunk.js.map",
     "runtime-main.js": "/elmo3alem/static/js/runtime-main.73b7c63b.js",
     "runtime-main.js.map": "/elmo3alem/static/js/runtime-main.73b7c63b.js.map",
     "static/css/2.0837809b.chunk.css": "/elmo3alem/static/css/2.0837809b.chunk.css",
@@ -27,6 +27,6 @@
     "static/css/2.0837809b.chunk.css",
     "static/js/2.e3725fdf.chunk.js",
     "static/css/main.8035ce06.chunk.css",
-    "static/js/main.80b89475.chunk.js"
+    "static/js/main.69fa65e6.chunk.js"
   ]
 }
